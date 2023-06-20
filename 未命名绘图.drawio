@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T09:40:52.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ehS1WOUA7di15mm-y2tu" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-20T09:45:07.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="z7OLoGbqoPaWk3F3czKg" version="21.5.0" type="github" pages="2">
   <diagram id="IWumR0pIm7voy-I-KHjL" name="WEB三方单点登录认证流程">
-    <mxGraphModel dx="989" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,7 +132,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aqIwpkFiL9hiW76rk_sg-1" value="用户小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=default;rounded=1;" vertex="1" parent="1">
+        <mxCell id="aqIwpkFiL9hiW76rk_sg-1" value="用户微信&lt;br&gt;小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1;fillColor=#dae8fc;strokeColor=default;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="30" width="100" height="530" as="geometry" />
         </mxCell>
         <mxCell id="aqIwpkFiL9hiW76rk_sg-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=1;" vertex="1" parent="aqIwpkFiL9hiW76rk_sg-1">
@@ -186,12 +186,12 @@
             <mxPoint x="599.5000000000002" y="230.17000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aqIwpkFiL9hiW76rk_sg-15" value="在公共服务平台进行Authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="aqIwpkFiL9hiW76rk_sg-14">
+        <mxCell id="aqIwpkFiL9hiW76rk_sg-15" value="在服务平台小程序进行Authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="aqIwpkFiL9hiW76rk_sg-14">
           <mxGeometry x="0.0861" y="-1" relative="1" as="geometry">
             <mxPoint x="-13" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aqIwpkFiL9hiW76rk_sg-16" value="302跳转回Authorize时发送的回调地址redirect_uri" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1">
+        <mxCell id="aqIwpkFiL9hiW76rk_sg-16" value="跳转回Authorize时发送的回调地址redirect_uri" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1">
           <mxGeometry x="-0.0019" y="1" relative="1" as="geometry">
             <mxPoint x="660" y="279" as="sourcePoint" />
             <mxPoint x="100" y="279" as="targetPoint" />
@@ -220,7 +220,7 @@
             <mxPoint x="-13" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aqIwpkFiL9hiW76rk_sg-21" value="302跳转到服务平台Authorize" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1" target="aqIwpkFiL9hiW76rk_sg-2">
+        <mxCell id="aqIwpkFiL9hiW76rk_sg-21" value="跳转到服务平台小程序Authorize" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1" target="aqIwpkFiL9hiW76rk_sg-2">
           <mxGeometry x="0.017" relative="1" as="geometry">
             <mxPoint x="374.5000000000002" y="189.58666666666676" as="sourcePoint" />
             <mxPoint x="110" y="189.58666666666676" as="targetPoint" />
