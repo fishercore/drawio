@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T01:53:20.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yrRrGX1qrN06G-wJua0j" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-02T06:10:27.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_PZ1oqr6OFemmV8tTDjY" version="21.5.0" type="github" pages="2">
   <diagram id="IWumR0pIm7voy-I-KHjL" name="WEB三方单点登录认证流程">
     <mxGraphModel dx="1434" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
             <mxPoint x="363.5" y="360.3268965517242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aqIwpkFiL9hiW76rk_sg-18" value="访问回调地址，参数携带grant_code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=none;" parent="aqIwpkFiL9hiW76rk_sg-17" vertex="1" connectable="0">
+        <mxCell id="aqIwpkFiL9hiW76rk_sg-18" value="使用grant_code访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=none;" parent="aqIwpkFiL9hiW76rk_sg-17" vertex="1" connectable="0">
           <mxGeometry x="0.0861" y="-1" relative="1" as="geometry">
             <mxPoint x="-13" y="-11" as="offset" />
           </mxGeometry>
